@@ -13,7 +13,7 @@ view: order_items {
     sql: ${TABLE}.inventory_item_id ;;
   }
 
-  dimension: order_id {
+  dimension: order_idzzzzz {
     type: number
     # hidden: yes
     sql: ${TABLE}.order_id ;;
@@ -41,5 +41,10 @@ view: order_items {
   measure: count {
     type: count
     drill_fields: [id, inventory_items.id, orders.id]
+  }
+  
+  measure: revenue {
+    type: sum
+    sql: ${sale_price} ;;
   }
 }
