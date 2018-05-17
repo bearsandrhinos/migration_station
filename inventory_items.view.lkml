@@ -45,10 +45,10 @@ view: inventory_items {
     ]
     sql: ${TABLE}.sold_at ;;
   }
-  
+
   measure: total_cost {
     type: sum
-    sql: ${cost}
+    sql: ${cost ;;
   }
 
   measure: count {
