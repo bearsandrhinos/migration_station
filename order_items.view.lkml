@@ -50,6 +50,6 @@ view: order_items {
 
   measure: profit_is_the_best {
     type: number
-    sql: ${revenue} - ${inventory_items.total_cost} ;;
+    sql: ${revenue1} - ${inventory_items.total_cost} ;;
   }
 }
