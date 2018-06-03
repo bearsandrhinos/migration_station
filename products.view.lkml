@@ -49,6 +49,6 @@ view: products {
   
   measure: total_retail_price {
     type: sum
-    sql: ${retail_price} ;;
+    sql: ${retail_price}
   }  
 }
