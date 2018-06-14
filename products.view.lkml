@@ -56,6 +56,11 @@ view: products {
     type: average
     sql:  ${retail_price} ;;
   }
+  
+  measure: test_min {
+    type: min
+    sql: ${retail_price) ;;
+  }
 
 
 }
