@@ -56,8 +56,8 @@ view: products {
     type: average
     sql:  ${retail_price} ;;
   }
-  
-  measure: tmin {
+
+  measure: this_is_the_real_min {
     type: min
     sql: ${retail_price) ;;
   }
