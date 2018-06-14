@@ -52,5 +52,10 @@ view: products {
     sql: ${retail_price} ;;
   }
 
+  measure: test_branch_avg_price {
+    type: average
+    sql:  ${retail_price} ;;
+  }
+
 
 }
