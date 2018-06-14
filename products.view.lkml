@@ -57,7 +57,7 @@ view: products {
     sql:  ${retail_price} ;;
   }
   
-  measure: test_min {
+  measure: tmin {
     type: min
     sql: ${retail_price) ;;
   }
