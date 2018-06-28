@@ -46,4 +46,28 @@ view: products {
     type: count
     drill_fields: [id, item_name, inventory_items.count]
   }
+
+  measure: total_retail_price {
+    type: sum
+    sql: ${retail_price} ;;
+  }
+
+  measure: test_branch_avg_price {
+    type: average
+    sql:  ${retail_price} ;;
+  }
+
+
+  measure: branch_test {
+
+    type: min
+    sql: ${retail_price} ;;
+  }
+
+  measure: max_test {
+    type: max
+    sql: ${retail_price} ;;
+  }
+
+
 }
