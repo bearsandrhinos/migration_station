@@ -59,7 +59,12 @@ view: products {
 
   measure: deploy_test {
     type: min
-    sql: ${retail_price) ;;
+    sql: ${retail_price} ;;
+  }
+
+  measure: max_price {
+    type: max
+    sql: ${retail_price} ;;
   }
 
 
