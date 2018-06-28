@@ -59,7 +59,12 @@ view: products {
 
   measure: this_is_the_real_min {
     type: min
-    sql: ${retail_price) ;;
+    sql: ${retail_price} ;;
+  }
+
+  measure: max_price {
+    type: max
+    sql: ${retail_price} ;;
   }
 
 
