@@ -58,7 +58,7 @@ view: products {
   }
 
 
-  measure: branch_test {
+  measure: new_branch_test {
 
     type: min
     sql: ${retail_price} ;;
