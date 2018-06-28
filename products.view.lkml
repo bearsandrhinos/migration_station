@@ -64,7 +64,7 @@ view: products {
     sql: ${retail_price} ;;
   }
 
-  measure: max_price {
+  measure: max_test {
     type: max
     sql: ${retail_price} ;;
   }
