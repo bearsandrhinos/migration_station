@@ -42,6 +42,11 @@ view: products {
     sql: ${TABLE}.sku ;;
   }
 
+  dimension: female {
+    type: yesno
+    sql: ${category} = 'f' ;;
+  }
+
   measure: count {
     type: count
     drill_fields: [id, item_name, inventory_items.count]

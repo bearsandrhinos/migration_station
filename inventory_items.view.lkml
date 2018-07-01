@@ -1,6 +1,4 @@
-explore: inventory_items {
 
-}
 
 view: inventory_items {
   sql_table_name: demo_db.inventory_items ;;
