@@ -42,9 +42,9 @@ view: products {
     sql: ${TABLE}.sku ;;
   }
 
-  dimension: female {
+  dimension: male {
     type: yesno
-    sql: ${category} = 'f' ;;
+    sql: ${category} = 'm' ;;
   }
 
   measure: count {
