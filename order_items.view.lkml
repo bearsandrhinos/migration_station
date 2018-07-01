@@ -48,6 +48,11 @@ view: order_items {
     sql: ${sale_price} ;;
   }
 
+  measure: average_required_price {
+    type: average
+    sql: ${sale_price} ;;
+  }
+
 
   measure: profit_for_realz {
 
