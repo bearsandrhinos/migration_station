@@ -1,3 +1,7 @@
+explore: inventory_items {
+
+}
+
 view: inventory_items {
   sql_table_name: demo_db.inventory_items ;;
 
@@ -48,7 +52,12 @@ view: inventory_items {
 
   measure: total_cost {
     type: sum
-    sql: ${cost ;;
+    sql: ${cost} ;;
+  }
+
+  measure: avg_cost {
+    type: average
+    sql: ${cost} ;;
   }
 
   measure: count {
