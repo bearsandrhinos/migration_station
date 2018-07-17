@@ -54,7 +54,7 @@ view: order_items {
   }
 
 
-  measure: profit_for_realz {
+  measure: profit_for_realz_for_reals {
 
     type: number
     sql: ${revenue1} - ${inventory_items.total_cost} ;;
