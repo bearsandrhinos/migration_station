@@ -1,3 +1,7 @@
+#We will see if this change in gone after I pull from production
+
+##ok lets test this shit
+
 view: order_items {
   sql_table_name: demo_db.order_items ;;
 
